@@ -14,8 +14,8 @@ spec:
     metadata:
       name: result-app-pod
       labels:
-        app: result-app-pod
-        type: demo-voting-app
+        name: result-app-pod
+        app: demo-voting-app
 
     spec:
       containers:
